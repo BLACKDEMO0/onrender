@@ -1039,6 +1039,2053 @@ input:focus{
 }
 
 
+@media (max-width:1080px){
+
+
+    .picture {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    
+    }
+    
+    .shadow {
+        content: '';
+        contain: '';
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    
+    .NavData {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: 0px auto;
+        left: 0px;
+        width:90%;
+        justify-content: space-between;
+        z-index: 1;
+        font-family: 'Open Sans', sans-serif;
+        padding: 10px 0px;
+        /* background-color: rgba(23, 23, 23,.1); */
+    
+    
+    }
+    
+    .navleft {
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    
+    .navright {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        gap: 40px;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .middle {
+        position: absolute;
+        top: 300px;
+        left: 0px;
+        right: 0px;
+        z-index: 1;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .creative {
+        font-weight: 700;
+        font-size: 2.24rem;
+        width: 80%;
+        text-align: center;
+        margin: 0px auto;
+    
+    
+    
+    }
+    
+    .Get {
+        font-size: 16px;
+        background-color: rgb(0, 156, 212);
+        height: 40px;
+        width: 125px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 30px;
+        color: white;
+    
+    
+    }
+    
+    .Get:hover {
+        cursor: grab;
+        background-color: black;
+        font-size: 16px;
+    }
+    
+    .About {
+        font-size: 32px;
+        font-weight: 900;
+        color: rgb(0, 156, 212);
+        text-align: center;
+        padding-bottom:15px ;
+    }
+    
+    .allover {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        place-content: center;
+        width: 90%;
+        height: 500px;
+        margin: 0px auto;
+        gap: 45px;
+    
+    
+    
+    
+    }
+    
+    .image {
+        height: 100%;
+        width: 100%;
+   
+    
+    
+    }
+    
+    .business {
+        font-size: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .sundey {
+        font-size: 1.65rem;
+    }
+    
+    .mondey {
+        font-size: 1rem;
+        color: gray;
+    }
+    
+    .tuesday {
+        font-size: 1rem;
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+    .team_member{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-bottom: 1px solid  rgb(207, 207, 207);
+        padding-bottom: 7%;
+     
+        
+    
+    }
+    
+    
+    
+    .Ourteam {
+        text-align: center;
+    }
+    
+    .apple {
+        font-size: 32px;
+        text-transform: capitalize;
+        font-weight: 900;
+        color: rgb(0, 156, 212);
+    }
+    
+    .ball {
+        font-size: 1rem;
+        color: gray;
+        width: 80%;
+        margin: 0px auto;
+    
+    }
+    
+    
+    
+    .membername {
+        width: 90%;
+        place-content: center;
+        display: grid;
+        grid-template-columns: 20%  20%  20% 20% ;
+        object-fit: cover;
+        gap: 40px;
+        margin-top: 30px;
+       
+    }
+    
+    .membername img{
+        background-color: yellow;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .membername img:hover {
+        transform: scale(1.01); 
+        
+    }
+    
+    
+    .profile{
+        text-align: center;
+    }
+    .Mountainpart{
+        margin-top: 30px;
+    }
+    .Mountain_View{
+        margin-top: 30px;
+    }
+    
+    .name{
+        font-size: 1rem;
+    }
+    
+    
+    .namein{
+        font-size: 0.7rem;
+        color: #c4c1c1;
+        text-transform: uppercase;
+        letter-spacing: .05rem;
+      
+    
+    }
+    .sundry{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .websection{
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        font-size: .8rem;
+       
+    }
+    
+    
+    .Portfolio{
+        color: rgb(0, 156, 212);
+        text-align: center;
+        font-size: 32px;
+        font-weight: 900;
+       
+    }
+    
+    .web{
+        background-color: rgb(249, 249, 249);
+        height: 35px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        gap: 25px;
+       
+    }
+    
+    .web:hover{
+        background-color: rgb(0, 156, 212);
+        color: white;
+        cursor: grab;
+    }
+    
+    
+    
+    
+    /* yota sakinnw section */
+    
+    
+    
+    
+    .our_service{
+        font-size: 32px;
+        color:  rgb(0, 156, 212);
+        font-weight: 900;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .texting{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(249, 249, 249);
+        padding-bottom: 100px;  
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+    
+    .works{
+        display: grid;
+        grid-template-columns: 30%  30%  30% ;
+        justify-content:center;
+        align-items: center;
+        gap: 30px;
+        height: 100%;
+        width: 90%;
+        margin-top: 80px;
+    }
+    
+    .Consulting{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       
+     
+        
+    }
+    
+    .Consulting svg{
+        color: rgb(0, 156, 212);
+        stroke: rgb(0, 156, 212);
+        fill: rgb(0, 156, 212);
+    }
+    
+    
+    
+    .classone{
+        font-size: 18px;
+    }
+    
+    .classtwo{
+        color: gray;
+        font-size: 14px;
+       
+    
+    
+    }
+     .classthree{
+        color: rgb(0, 156, 212);
+     }
+    
+    
+    
+    
+    
+    
+    
+    .market{
+        background-color:red;
+        
+    }
+    .user{
+        background-color: green;
+    }
+    .insurance{
+        background-color: aqua;
+    }
+    .financial{
+        background-color: yellow;
+    }
+    .management{
+        background-color: palevioletred;
+    }
+    
+    .terminology{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+    
+    .Testimonials{
+        font-size: 35px;
+        font-weight: 900;
+        color: rgb(0, 156, 212);
+       
+    }
+    .lorem{
+        color: gray;
+        width: 50%;
+        font-style: italic;
+        font-size: 18px;
+        margin: 0px auto;
+    }
+    .fullTestimonials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+    }
+    .idcard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .idcard img{
+        height: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    
+    .smallname{
+        color: gray;
+    }
+    
+    
+    .circle{
+        display: flex;
+        gap: 10px;
+        border-radius: 30px;
+    }
+    
+    .John{
+        background-color: rgb(216, 215, 215);
+        border-radius: 15px;
+        height: 12px;
+        width: 12px;
+    }
+    
+    
+    .pricing_requirement{
+        background-color:rgb(249, 249, 249);
+        /* height:1350px; */
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 0px;
+       
+    }
+    .Pricing{
+        font-size: 32px;
+        font-weight: 900;
+        color:  rgb(0, 156, 212);
+        text-align: center;
+    
+    }
+    
+    .price_data{
+        display: grid;
+        grid-template-columns: 30% 30% 30% ;
+        gap: 60px;
+        height: 70%;
+        width:90%;
+        margin: 0px auto;
+        margin-bottom: 30px;
+    
+    }
+    .basic{
+        background-color:white;
+        padding: 20px 0px;
+    }
+    
+    .Premium{
+        background-color: white;
+    }
+    
+    .Professional{
+        background-color: white;
+    }
+    
+    .basic_data{
+        font-size: 1.60rem;
+        text-align: center;
+    }
+    
+    .doller_class{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .doller{
+        color: rgb(0, 156, 212) ;
+        font-size: 2.5rem;
+        font-weight: 400;
+    
+    }
+    .year{
+        color: gray;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    
+    .Officia{
+        width: 100%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+       
+    }
+    
+    .tickmark_related{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        gap: 20px;
+    }
+    
+    .tickmark_related div{
+        display: flex;
+        gap: 0px;
+        text-align: left;
+    }
+    
+    .buy{
+
+        align-items: center;
+    
+    
+    }
+
+    
+    
+    
+    .Frequently{
+        font-size: 32px;
+        font-weight: 900;
+        color: rgb(0, 156, 212);
+        text-align: center;
+    
+    }
+    .accept{
+        width: 95%;
+    
+        display: grid;
+        grid-template-columns: 48% 48%;
+        /* place-items: center; */
+        gap: 5%;
+        margin: 0px auto;
+      
+    }
+    
+    .can{
+      
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        gap: 20px;
+        line-height: 20px;
+    }
+    
+    
+    .both{
+        font-size: 16px;
+    }
+    
+    .ipsum{
+        color: gray;
+        font-size: 15px;
+    }
+    
+    .csit{
+        display: grid;
+        grid-template-columns: 20% 20% 40%;
+        gap: 30px;
+        width: 100%;
+        /* height: fit-content; */
+        margin: 0px auto;
+        place-content: center;
+        margin-top: 80px;
+    }
+    
+    .csit img{
+        height: 95%;
+        width: 95%;
+    
+    }
+    .Mobile_specialties{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .Mobile_specialties svg{
+        
+        color: rgb(0, 156, 212);
+        stroke: rgb(0, 156, 212);
+        fill: rgb(0, 156, 212);
+    }
+    
+    
+    
+    .picturemind img{
+        background-color: blue;
+        height: 97%;
+        width: 97%;
+    }
+    
+    .great{
+        width: 100%;
+        font-size: 15px;
+        color: gray;
+    }
+    
+    
+    .our_blogs{
+        color:rgb(0, 156, 212) ;
+        font-weight: 900;
+        font-size: 32px;
+        text-align: center;
+        
+    
+    }
+    
+    .blog{
+        display: grid;
+        grid-template-columns:  30% 30% 30%;
+        gap: 25px;
+        width: 95%;
+        margin: 0px auto;
+        place-content: center;
+        font-size: 21px; 
+      
+        
+    }
+    
+    
+    
+    .blog img{
+        object-fit: cover;
+       height: 300px;
+       width: 100%;
+    }
+    
+    
+    
+    
+    .Ham_Brook{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: gray;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .News{
+        color: rgb(0, 156, 212) ;
+    }
+    
+    .nobis{
+        color: gray;
+        font-size: 15px;
+        text-align:justify;
+        margin-top: 20px;
+    }
+    
+    .continue_reading{
+        font-size: 15px;
+        color:rgb(0, 156, 212);
+        margin-top: 20px;
+    }
+    
+    .anker{
+        background-color:rgb(249, 249, 249);
+        padding-bottom: 90px;
+    
+    }
+    
+    .Contact_Us{
+        font-size: 32px;
+        font-weight: 900;
+        text-align: center;
+        color:rgb(0, 156, 212);
+        margin-top: 40px;
+    }
+    
+    
+    
+    .Mountain_data{
+        color: gray;
+        font-size: 14px;
+        width: 60%;
+        text-align: center;
+       
+    
+    }
+    
+    
+    
+    .document{
+       text-align: center;
+       width: 60%;
+    }
+    
+    .iconify{
+        text-align: center;
+    
+    }
+    
+    .gmail{
+        color:rgb(0, 156, 212);
+        font-size: 14px;
+      
+        text-align: center;
+        
+    
+    
+    }
+    
+    .Mountainpart{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+         width: 300px;
+    }
+    
+    
+    .nav_form{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+    
+     
+    
+    }
+    
+    .mello{
+        display: flex;
+        gap: 155px;
+    }
+    
+    
+    .white_color{
+        background-color: white;
+     
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        margin-top: 60px;
+        padding: 0px 30px;
+        padding-top: 30px;
+    
+     
+     
+    }
+    
+    .Contact_Form{
+        font-size: 24px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    
+    /* .formbala{
+        background-color: red;
+    }
+    .maindiv{
+        background-color: yellow;
+    } */
+    
+    .nameone{
+        width: 100%;
+        margin: 4px auto;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        padding-top: 30px;
+    
+         gap:2%; 
+        padding:10px 5px;
+    }  
+    
+    .maindiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        border-radius: 19px;
+    }
+    
+    input{
+        width: 100%;
+        height: 35px;
+        border:1px solid rgb(0, 156, 212);
+        border-radius: 20px;
+    }
+    
+    input:focus{
+        border-color:gray;
+    }
+    
+    .secondflow input{
+        width: 90%;
+    }
+    
+    .formup{
+        width: 70%;
+    }
+    
+    
+    .egostic{
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding:5px 0px;
+      
+    }
+    
+    .egostic input{
+        width: 100%;
+    }
+    
+    .mssage{
+        height: 100px;
+        
+    }
+    
+    .area{
+        border-radius: 20px;
+        resize: none;
+        width: 100%;
+        border-color: rgb(0, 156, 212);
+    }
+    
+    .send_message{
+        /* width: ; */
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 30px;
+      
+     
+    
+    }
+    
+    .boxing{
+        background-color:rgb(0, 156, 212);
+        color: white;
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 20px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    
+    
+    
+    .color_black{
+        background: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+    
+    .footer{
+        display: grid;
+        grid-template-columns: 33% 23% 20% 20%;
+        width:80%;
+        gap: 3%;
+        margin: 0px auto;
+        padding-bottom: 80px;
+       border-bottom: 1px solid gray;
+       
+       
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .about_us{
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
+    .follow{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        
+        
+    }
+    
+    
+    .subscribe{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      
+       
+    
+    }
+    .subscribe input{
+        width: 60%;
+        border-radius: none;
+        padding-left: 15px;
+        background-color: #333333;
+        border-color:white;
+    
+    }
+    .send{
+        display: flex;
+        background-color: white;
+        color: black;
+        width: 60px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius:20px ;
+        border-bottom-right-radius:20px ;
+    
+    }
+        
+    
+    
+    
+    .footer_lorem{
+       /* text-align: ; */
+       word-break: break-all;
+       /* white-space: ; */
+       color: gray;
+       line-height: 25px;
+       width: 90%;
+    
+       
+        
+    }
+    
+    
+    
+    
+    .quick{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: 0px auto;
+        /* margin-bottom: 85px; */
+    }
+    
+    .Quick_Links{
+        font-size: 16px;
+        color: white;
+    }
+    
+    .aboutdata{
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer_apps{
+        display: flex;
+        gap: 15px;
+    
+    }
+    
+    .datalist{
+        display: flex;
+    
+    }
+    
+    
+    
+    .datalist input{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 50%;
+    
+    
+    }
+    
+    
+    .Copyright{
+        color: gray;
+        margin-top: 40px;
+        padding-bottom: 6%;
+    }
+    
+    
+    .Copyright span{
+        color: red;
+    
+    }
+    
+    
+
+}
+
+
+
+
+
+@media (max-width:1024px){
+
+
+    .picture {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    
+    }
+    
+    .shadow {
+        content: '';
+        contain: '';
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    
+    .NavData {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: 0px auto;
+        left: 0px;
+        width:90%;
+        justify-content: space-between;
+        z-index: 1;
+        font-family: 'Open Sans', sans-serif;
+        padding: 10px 0px;
+        /* background-color: rgba(23, 23, 23,.1); */
+    
+    
+    }
+    
+    .navleft {
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    
+    .navright {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        gap: 40px;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .middle {
+        position: absolute;
+        top: 300px;
+        left: 0px;
+        right: 0px;
+        z-index: 1;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .creative {
+        font-weight: 700;
+        font-size: 2.24rem;
+        width: 80%;
+        text-align: center;
+        margin: 0px auto;
+    
+    
+    
+    }
+    
+    .Get {
+        font-size: 16px;
+        background-color: rgb(0, 156, 212);
+        height: 40px;
+        width: 125px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 30px;
+        color: white;
+    
+    
+    }
+    
+    .Get:hover {
+        cursor: grab;
+        background-color: black;
+        font-size: 16px;
+    }
+    
+    .About {
+        font-size: 32px;
+        font-weight: 900;
+        color: rgb(0, 156, 212);
+        text-align: center;
+        padding-bottom:15px ;
+    }
+    
+    .allover {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        place-content: center;
+        width: 90%;
+        height: 500px;
+        margin: 0px auto;
+        gap: 45px;
+    
+    
+    
+    
+    }
+    
+    .image {
+        height: 100%;
+        width: 100%;
+   
+    
+    
+    }
+    
+    .business {
+        font-size: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .sundey {
+        font-size: 1.65rem;
+    }
+    
+    .mondey {
+        font-size: 1rem;
+        color: gray;
+    }
+    
+    .tuesday {
+        font-size: 1rem;
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+    .team_member{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-bottom: 1px solid  rgb(207, 207, 207);
+        padding-bottom: 7%;
+     
+        
+    
+    }
+    
+    
+    
+    .Ourteam {
+        text-align: center;
+    }
+    
+    .apple {
+        font-size: 32px;
+        text-transform: capitalize;
+        font-weight: 900;
+        color: rgb(0, 156, 212);
+    }
+    
+    .ball {
+        font-size: 1rem;
+        color: gray;
+        width: 80%;
+        margin: 0px auto;
+    
+    }
+    
+    
+    
+    .membername {
+        width: 90%;
+        place-content: center;
+        display: grid;
+        grid-template-columns: 20%  20%  20% 20% ;
+        object-fit: cover;
+        gap: 40px;
+        margin-top: 30px;
+       
+    }
+    
+    .membername img{
+        background-color: yellow;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .membername img:hover {
+        transform: scale(1.01); 
+        
+    }
+    
+    
+    .profile{
+        text-align: center;
+    }
+    .Mountainpart{
+        margin-top: 30px;
+    }
+    .Mountain_View{
+        margin-top: 30px;
+    }
+    
+    .name{
+        font-size: 1rem;
+    }
+    
+    
+    .namein{
+        font-size: 0.7rem;
+        color: #c4c1c1;
+        text-transform: uppercase;
+        letter-spacing: .05rem;
+      
+    
+    }
+    .sundry{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .websection{
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        font-size: .8rem;
+       
+    }
+    
+    
+    .Portfolio{
+        color: rgb(0, 156, 212);
+        text-align: center;
+        font-size: 32px;
+        font-weight: 900;
+       
+    }
+    
+    .web{
+        background-color: rgb(249, 249, 249);
+        height: 35px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        gap: 25px;
+       
+    }
+    
+    .web:hover{
+        background-color: rgb(0, 156, 212);
+        color: white;
+        cursor: grab;
+    }
+    
+    
+    
+    
+    /* yota sakinnw section */
+    
+    
+    
+    
+    .our_service{
+        font-size: 32px;
+        color:  rgb(0, 156, 212);
+        font-weight: 900;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .texting{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(249, 249, 249);
+        padding-bottom: 100px;  
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+    
+    .works{
+        display: grid;
+        grid-template-columns: 30%  30%  30% ;
+        justify-content:center;
+        align-items: center;
+        gap: 30px;
+        height: 100%;
+        width: 90%;
+        margin-top: 80px;
+    }
+    
+    .Consulting{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       
+     
+        
+    }
+    
+    .Consulting svg{
+        color: rgb(0, 156, 212);
+        stroke: rgb(0, 156, 212);
+        fill: rgb(0, 156, 212);
+    }
+    
+    
+    
+    .classone{
+        font-size: 18px;
+    }
+    
+    .classtwo{
+        color: gray;
+        font-size: 14px;
+       
+    
+    
+    }
+     .classthree{
+        color: rgb(0, 156, 212);
+     }
+    
+    
+    
+    
+    
+    
+    
+    .market{
+        background-color:red;
+        
+    }
+    .user{
+        background-color: green;
+    }
+    .insurance{
+        background-color: aqua;
+    }
+    .financial{
+        background-color: yellow;
+    }
+    .management{
+        background-color: palevioletred;
+    }
+    
+    .terminology{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+    
+    .Testimonials{
+        font-size: 35px;
+        font-weight: 900;
+        color: rgb(0, 156, 212);
+       
+    }
+    .lorem{
+        color: gray;
+        width: 50%;
+        font-style: italic;
+        font-size: 18px;
+        margin: 0px auto;
+    }
+    .fullTestimonials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+    }
+    .idcard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .idcard img{
+        height: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    
+    .smallname{
+        color: gray;
+    }
+    
+    
+    .circle{
+        display: flex;
+        gap: 10px;
+        border-radius: 30px;
+    }
+    
+    .John{
+        background-color: rgb(216, 215, 215);
+        border-radius: 15px;
+        height: 12px;
+        width: 12px;
+    }
+    
+    
+    .pricing_requirement{
+        background-color:rgb(249, 249, 249);
+        /* height:1350px; */
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 0px;
+       
+    }
+    .Pricing{
+        font-size: 32px;
+        font-weight: 900;
+        color:  rgb(0, 156, 212);
+        text-align: center;
+    
+    }
+    
+    .price_data{
+        display: grid;
+        grid-template-columns: 30% 30% 30% ;
+        gap: 60px;
+        height: 70%;
+        width:90%;
+        margin: 0px auto;
+        margin-bottom: 30px;
+    
+    }
+    .basic{
+        background-color:white;
+        padding: 20px 0px;
+    }
+    
+    .Premium{
+        background-color: white;
+    }
+    
+    .Professional{
+        background-color: white;
+    }
+    
+    .basic_data{
+        font-size: 1.60rem;
+        text-align: center;
+    }
+    
+    .doller_class{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .doller{
+        color: rgb(0, 156, 212) ;
+        font-size: 2.5rem;
+        font-weight: 400;
+    
+    }
+    .year{
+        color: gray;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    
+    .Officia{
+        width: 100%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+       
+    }
+    
+    .tickmark_related{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        gap: 20px;
+    }
+    
+    .tickmark_related div{
+        display: flex;
+        gap: 0px;
+        text-align: left;
+    }
+    
+    .buy{
+
+        align-items: center;
+    
+    
+    }
+
+    
+    
+    
+    .Frequently{
+        font-size: 32px;
+        font-weight: 900;
+        color: rgb(0, 156, 212);
+        text-align: center;
+    
+    }
+    .accept{
+        width: 95%;
+    
+        display: grid;
+        grid-template-columns: 48% 48%;
+        /* place-items: center; */
+        gap: 5%;
+        margin: 0px auto;
+      
+    }
+    
+    .can{
+      
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        gap: 20px;
+        line-height: 20px;
+    }
+    
+    
+    .both{
+        font-size: 16px;
+    }
+    
+    .ipsum{
+        color: gray;
+        font-size: 15px;
+    }
+    
+    .csit{
+        display: grid;
+        grid-template-columns: 20% 20% 40%;
+        gap: 30px;
+        width: 100%;
+        /* height: fit-content; */
+        margin: 0px auto;
+        place-content: center;
+        margin-top: 80px;
+    }
+    
+    .csit img{
+        height: 95%;
+        width: 95%;
+    
+    }
+    .Mobile_specialties{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .Mobile_specialties svg{
+        
+        color: rgb(0, 156, 212);
+        stroke: rgb(0, 156, 212);
+        fill: rgb(0, 156, 212);
+    }
+    
+    
+    
+    .picturemind img{
+        background-color: blue;
+        height: 97%;
+        width: 97%;
+    }
+    
+    .great{
+        width: 100%;
+        font-size: 15px;
+        color: gray;
+    }
+    
+    
+    .our_blogs{
+        color:rgb(0, 156, 212) ;
+        font-weight: 900;
+        font-size: 32px;
+        text-align: center;
+        
+    
+    }
+    
+    .blog{
+        display: grid;
+        grid-template-columns:  30% 30% 30%;
+        gap: 25px;
+        width: 95%;
+        margin: 0px auto;
+        place-content: center;
+        font-size: 21px; 
+      
+        
+    }
+    
+    
+    
+    .blog img{
+        object-fit: cover;
+       height: 300px;
+       width: 100%;
+    }
+    
+    
+    
+    
+    .Ham_Brook{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: gray;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .News{
+        color: rgb(0, 156, 212) ;
+    }
+    
+    .nobis{
+        color: gray;
+        font-size: 15px;
+        text-align:justify;
+        margin-top: 20px;
+    }
+    
+    .continue_reading{
+        font-size: 15px;
+        color:rgb(0, 156, 212);
+        margin-top: 20px;
+    }
+    
+    .anker{
+        background-color:rgb(249, 249, 249);
+        padding-bottom: 90px;
+    
+    }
+    
+    .Contact_Us{
+        font-size: 32px;
+        font-weight: 900;
+        text-align: center;
+        color:rgb(0, 156, 212);
+        margin-top: 40px;
+    }
+    
+    
+    
+    .Mountain_data{
+        color: gray;
+        font-size: 14px;
+        width: 60%;
+        text-align: center;
+       
+    
+    }
+    
+    
+    
+    .document{
+       text-align: center;
+       width: 60%;
+    }
+    
+    .iconify{
+        text-align: center;
+    
+    }
+    
+    .gmail{
+        color:rgb(0, 156, 212);
+        font-size: 14px;
+      
+        text-align: center;
+        
+    
+    
+    }
+    
+    .Mountainpart{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+         width: 300px;
+    }
+    
+    
+    .nav_form{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+    
+     
+    
+    }
+    
+    .mello{
+        display: flex;
+        gap: 155px;
+    }
+    
+    
+    .white_color{
+        background-color: white;
+     
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        margin-top: 60px;
+        padding: 0px 30px;
+        padding-top: 30px;
+    
+     
+     
+    }
+    
+    .Contact_Form{
+        font-size: 24px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    
+    /* .formbala{
+        background-color: red;
+    }
+    .maindiv{
+        background-color: yellow;
+    } */
+    
+    .nameone{
+        width: 100%;
+        margin: 4px auto;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        padding-top: 30px;
+    
+         gap:2%; 
+        padding:10px 5px;
+    }  
+    
+    .maindiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        border-radius: 19px;
+    }
+    
+    input{
+        width: 100%;
+        height: 35px;
+        border:1px solid rgb(0, 156, 212);
+        border-radius: 20px;
+    }
+    
+    input:focus{
+        border-color:gray;
+    }
+    
+    .secondflow input{
+        width: 90%;
+    }
+    
+    .formup{
+        width: 70%;
+    }
+    
+    
+    .egostic{
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding:5px 0px;
+      
+    }
+    
+    .egostic input{
+        width: 100%;
+    }
+    
+    .mssage{
+        height: 100px;
+        
+    }
+    
+    .area{
+        border-radius: 20px;
+        resize: none;
+        width: 100%;
+        border-color: rgb(0, 156, 212);
+    }
+    
+    .send_message{
+        /* width: ; */
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 30px;
+      
+     
+    
+    }
+    
+    .boxing{
+        background-color:rgb(0, 156, 212);
+        color: white;
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 20px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    
+    
+    
+    .color_black{
+        background: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+    
+    .footer{
+        display: grid;
+        grid-template-columns: 33% 23% 20% 20%;
+        width:80%;
+        gap: 3%;
+        margin: 0px auto;
+        padding-bottom: 80px;
+       border-bottom: 1px solid gray;
+       
+       
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .about_us{
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
+    .follow{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        
+        
+    }
+    
+    
+    .subscribe{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      
+       
+    
+    }
+    .subscribe input{
+        width: 60%;
+        border-radius: none;
+        padding-left: 15px;
+        background-color: #333333;
+        border-color:white;
+    
+    }
+    .send{
+        display: flex;
+        background-color: white;
+        color: black;
+        width: 60px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius:20px ;
+        border-bottom-right-radius:20px ;
+    
+    }
+        
+    
+    
+    
+    .footer_lorem{
+       /* text-align: ; */
+       word-break: break-all;
+       /* white-space: ; */
+       color: gray;
+       line-height: 25px;
+       width: 90%;
+    
+       
+        
+    }
+    
+    
+    
+    
+    .quick{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: 0px auto;
+        /* margin-bottom: 85px; */
+    }
+    
+    .Quick_Links{
+        font-size: 16px;
+        color: white;
+    }
+    
+    .aboutdata{
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer_apps{
+        display: flex;
+        gap: 15px;
+    
+    }
+    
+    .datalist{
+        display: flex;
+    
+    }
+    
+    
+    
+    .datalist input{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 50%;
+    
+    
+    }
+    
+    
+    .Copyright{
+        color: gray;
+        margin-top: 40px;
+        padding-bottom: 6%;
+    }
+    
+    
+    .Copyright span{
+        color: red;
+    
+    }
+    
+    
+
+}
 
 
 
@@ -1055,6 +3102,422 @@ input:focus{
 
 
 
+
+/* media for 768px */
+
+@media (max-width:768px) {
+
+    .picture {
+        height: 50vh;
+    }
+
+    .NavData {
+        width: 80%;
+    }
+
+    .navleft {
+        color: white;
+        font-size: 23px;
+        font-weight: 800;
+    }
+
+    .navright {
+        display: none;
+    }
+
+    .middle {
+        top: 0px;
+        bottom: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .creative {
+        font-size: 1.2rem;
+        width: 70%;
+    }
+
+
+    .About {
+        font-size: 32px;
+    }
+    
+    .allover {
+        
+        grid-template-columns: 100%;
+        width: 90%;
+        gap: 10px;
+        height: fit-content;
+    
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
+    
+    
+    }
+    
+    .business {
+        font-size: 24px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sundey {
+        font-size: 1.4rem;
+    }
+
+
+    
+    .ball {
+        
+        width: 90%;
+    
+    }
+   
+    .membername {
+ 
+        grid-template-columns: 50% 50% ;
+    }
+
+    .works{
+ 
+        grid-template-columns: 50% 50%;
+     
+       
+    }
+
+    .Consulting{
+  
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        gap: 15px;
+       
+     
+        
+    }
+    .Consulting div{
+        text-align: left;
+    }
+
+    .subscribe{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-bottom: 80px;
+      
+       
+    
+    }
+    .lorem{
+        color: gray;
+        width: 100%;
+        font-style: italic;
+        font-size: 15px;
+        margin: 0px auto;
+    }
+
+    .price_data{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        height: 70%;
+        width:90%;
+        margin: 0px auto;
+        margin-bottom: 30px;
+    
+    }
+
+    .tickmark_related{
+   
+        display: grid;
+      
+        gap: 20px;
+        width: 100%;
+        
+        
+    }
+
+    .tickmark_related div{
+        display: flex;
+        gap: 0px;
+        text-align: left;
+    }
+
+.buy{
+    
+    justify-content: center;
+    align-items: center;
+    margin: none;
+
+  
+
+}
+
+
+
+.Frequently{
+    font-size: 32px;
+    
+}
+
+.Pricing{
+    font-size: 32px;
+    
+}
+
+.basic_data{
+  
+    text-align:left;
+}
+
+
+.doller_class{
+ 
+    justify-content: left;
+ 
+}
+
+
+
+
+
+
+
+
+.Testimonials{
+    font-size: 32px;
+}
+
+.our_service{
+    font-size: 32px;
+    
+}
+
+
+.Portfolio{
+  
+    font-size: 32px;
+    
+   }
+
+
+   .apple {
+    font-size: 32px;
+
+}
+
+.accept{
+    grid-template-columns: 50% 50%;
+    row-gap: 1%;
+
+}
+
+.csit{
+  
+    grid-template-columns: 100%;
+    gap: 30px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    
+  
+}
+
+
+
+
+
+.both{
+    font-size: 18.72px;
+   text-align: left;
+  
+}
+
+
+.Mobile_specialties{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: left;
+}
+
+
+
+.great{
+    width: 100%;
+    color: gray;
+    text-align: left;
+}
+
+.csit img{
+    height: 100%;
+    width: 100%;
+   margin: 0px auto;
+  
+
+}
+
+
+
+.our_blogs{
+    font-size: 32px;
+}
+
+
+.blog{
+    grid-template-columns:  50% 50%;
+}
+
+
+
+.Contact_Us{
+    font-size: 32px;
+   
+}
+
+.nav_form{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    flex-direction: column;
+    gap:50px;
+    margin-top: 30px;
+    
+}
+ 
+
+
+.Mountain_View{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+
+
+
+.white_color{
+    background-color: white;
+ 
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    padding: 0px 30px;
+    padding-top: 30px;
+
+ 
+ 
+}
+
+
+.nameone{
+    width: 96%;
+     gap:16px; 
+   
+}  
+
+.footer{
+    display: grid;
+    grid-template-columns:100%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    gap: 5%;
+    margin: none;
+    /* background-color: red; */
+   border-bottom: 1px solid gray;
+   margin-bottom: 0px;
+   
+   
+}
+
+
+.footer_lorem{
+    text-align:center;
+    margin: 0px auto;
+    word-break: break-all;
+    color: gray;
+    line-height: 25px;
+    width: 75%;
+ 
+    
+     
+ }
+
+ .Mountainpart{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    
+     width: 100%;
+}
+
+.gmail{
+    width: none;
+}
+
+
+.color_black{
+    background: #333333;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.aboutdata{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+.follow{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    
+    
+}
+
+.datalist{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.Copyright{
+   text-align: center;
+    margin-top:none;
+    padding-top: 0px;
+}
+
+
+
+}
 
 
 /* media for 480px */
