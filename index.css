@@ -475,6 +475,7 @@ body {
 .basic{
     background-color:white;
     padding: 20px 0px;
+    text-align: left;
 }
 
 .Premium{
@@ -610,8 +611,9 @@ height: 40px;
 }
 
 .csit img{
-    height: 95%;
-    width: 95%;
+    height: 100%;
+    width:100%;
+    /* background-size: cover; */
 
 }
 .Mobile_specialties{
